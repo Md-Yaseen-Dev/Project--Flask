@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    form {
+      max-width: 400px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>To-Do Page</h1>
+
+  <form id="todo-form">
+    <label for="item-name">Item Name</label>
+    <input type="text" id="item-name" name="itemName" required>
+
+    <label for="item-desc">Item Description</label>
+    <textarea id="item-desc" name="itemDescription" rows="4" required></textarea>
+
+    <button type="submit">Add To-Do</button>
+  </form>
+
+</body>
+</html>
